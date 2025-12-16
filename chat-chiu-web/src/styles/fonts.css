@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+@font-face {
+  font-family: "HF Gesco";
+  src: url("../assets/fonts/1FTV-HF-Gesco-id0oy5.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "BT Beau Sans";
+  src: url("../assets/fonts/BT-BeauSans-Regular.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
