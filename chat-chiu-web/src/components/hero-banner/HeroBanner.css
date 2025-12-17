@@ -1,6 +1,5 @@
 .hero-banner-container {
   background-image: url("../../assets/images/home-hero-banner.webp");
-  min-height: 126vh;
   padding: 6rem 5.5rem;
 }
 
