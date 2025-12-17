@@ -1,0 +1,26 @@
+.scrolling-text-container {
+  overflow: hidden;
+  background-color: #f2d6b0;
+  padding: 1.5rem 0;
+  font-size: 24px;
+  font-family: "HF Gesco", sans-serif;
+  color: #673e2f;
+  transition: color 0.3s;
+}
+
+.scrolling-text-container h1 {
+  margin-right: 15rem;
+}
+
+@media (max-width: 768px) {
+  .scrolling-text-container {
+    padding: 1rem 0;
+    font-size: 15px;
+  }
+}
+@media (max-width: 640px) {
+  .scrolling-text-container {
+    padding: 0.8rem 0;
+    font-size: 12px;
+  }
+}

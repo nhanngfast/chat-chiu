@@ -1,0 +1,77 @@
+.hero-banner-container {
+  background-image: url("../../assets/images/home-hero-banner.webp");
+  padding: 6rem 5.5rem;
+}
+
+.hero-banner__content {
+  max-width: 600px;
+}
+
+.hero-banner__content h1 {
+  font-family: "HF Gesco", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-shadow: 2px 2px 2px rgb(255 255 255 / 0.48);
+  color: #673e2f;
+  margin-bottom: 2rem;
+}
+
+.hero-banner-container__desc {
+  font-family: "BT Beau Sans", sans-serif;
+  font-weight: 300;
+  text-shadow: 1px 1px 1px rgb(251 251 251 / 0.7);
+  color: #673e2f;
+  margin-bottom: 2rem;
+  max-width: 500px;
+}
+
+.hero-banner__img {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .hero-banner-container {
+    max-width: 768px;
+    padding: 5rem 3rem;
+    background-position: 70% top;
+    background-size: 150%;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 640px) {
+  .hero-banner-container {
+    max-width: 640px;
+    background: none;
+    padding: 0;
+  }
+
+  .hero-banner__img {
+    display: block;
+    overflow: hidden;
+    object-fit: cover;
+  }
+
+  .hero-banner__content {
+    background-color: #a36f5b;
+    padding: 2rem 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero-banner__content h1 {
+    color: #fff;
+    text-shadow: none;
+    font-size: 35px;
+  }
+
+  .hero-banner-container__desc {
+    text-shadow: none;
+    background-color: rgb(255 255 255 / 0.78);
+    border-radius: 10px;
+    padding: 0.15em 0.45em;
+  }
+}
