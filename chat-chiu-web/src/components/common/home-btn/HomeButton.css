@@ -1,0 +1,24 @@
+.home-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #673e2f;
+  border: 1px solid #673e2f;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  gap: 0.3rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  color: #fcf7ee;
+  fill: #fcf7ee;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.4em;
+  color: #fcf7ee;
+  font-family: "BT Beau Sans", sans-serif;
+}
+
+.home-btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color: #673e2f;
+}
