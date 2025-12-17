@@ -15,8 +15,7 @@
   justify-content: center;
   gap: 5rem;
   padding-bottom: 2rem;
-  border-bottom: 1.5px solid rgba(217, 217, 217, 0.43)
-;
+  border-bottom: 1.5px solid rgba(217, 217, 217, 0.43);
 }
 
 .info__contact-info {
@@ -73,10 +72,10 @@
 }
 
 .info__contact-register {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-    padding-right: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-right: 3rem;
 }
 
 form {
@@ -100,19 +99,52 @@ form button {
   top: 0;
   border-radius: 0 6px 6px 0;
   border: none;
-  background-color: #FCC480;
+  background-color: #fcc480;
   color: #fff;
 }
 
 .contact-register__social-icons {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 .footer__copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    padding: 2rem 0.5rem 0.5rem 1rem;
+  }
+
+  .footer__info,
+  .contact-info__text {
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .footer-container {
+    padding: 1rem 0;
+    background: none;
+    background-color: #673e2f;
+  }
+
+  .footer__info {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
+    gap: 1rem;
+  }
+
+  .contact-info__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: space-between;
+  }
 }
