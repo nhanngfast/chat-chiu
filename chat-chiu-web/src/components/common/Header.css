@@ -6,7 +6,7 @@
   background-color: #fff7eb;
 }
 
-nav {
+.header__desktop-menu {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -15,9 +15,99 @@ nav {
   font-family: "BT Beau Sans", sans-serif;
 }
 
-nav a {
+.header__desktop-menu a {
   text-decoration: none;
   font-weight: 600;
   font-size: 16px;
   color: #000;
+}
+
+.header__menu-toggle,
+.header__mobile-menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .header-container {
+    padding-right: 1rem;
+  }
+  .header__desktop-menu {
+    gap: 0.5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .header__desktop-menu {
+    display: none;
+  }
+
+  .header__menu-toggle,
+  .mobile-menu__close-btn {
+    display: block;
+    padding: 0.5rem;
+    background-color: #e2a861;
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+  }
+
+  .header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+  }
+
+  .header__mobile-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    z-index: 10;
+  }
+
+  .header__mobile-overlay.show {
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+  .header__mobile-menu {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 375px;
+    height: 100vh;
+    background: #fff4da;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    z-index: 20;
+    padding: 20px;
+  }
+
+  .header__mobile-menu.active {
+    transform: translateX(0);
+  }
+
+  .mobile-menu__header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header__mobile-menu a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    color: #e2a861;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
 }
