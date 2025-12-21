@@ -59,11 +59,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f2d6b0;
-  max-width: 300px;
+  background-color: rgba(244, 241, 236, 0.9);
+  max-width: 350px;
   padding: 2rem 2.5rem;
   gap: 2rem;
   border-radius: 10px;
+  position: absolute;
+  top: 530px;
+  left: 630px;
+  z-index: 3;
 }
 
 .banner-modal__desc {
