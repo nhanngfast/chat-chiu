@@ -96,3 +96,52 @@
   background-color: #fff;
   color: #673e2f;
 }
+
+@media (max-width: 768px) {
+  .frame-4 {
+    right: -380px;
+  }
+
+  .frame-3 {
+    left: -400px;
+  }
+
+  .sub-banner__modal {
+    top: 530px;
+    left: 400px;
+  }
+}
+
+@media (max-width: 640px) {
+  .sub-banner__top-title,
+  .sub-banner__bottom-title {
+    font-size: 100px;
+  }
+
+  .frame-1 {
+    position: absolute;
+    width: 200px;
+    top: -25px;
+    left: -150px;
+    z-index: 2;
+  }
+
+  .frame-2 {
+    position: absolute;
+    width: 200px;
+    top: -55px;
+    left: -50px;
+    z-index: 1;
+  }
+
+  .frame-3 {
+    width: 200px;
+    top: 160px;
+    left: -250px;
+  }
+
+  .frame-4 {
+    top: -20px;
+    right: -480px;
+  }
+}
