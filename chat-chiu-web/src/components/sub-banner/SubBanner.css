@@ -137,11 +137,23 @@
   .frame-3 {
     width: 200px;
     top: 160px;
-    left: -250px;
+    left: -220px;
   }
 
   .frame-4 {
-    top: -20px;
-    right: -480px;
+    width: 200px;
+    top: 60px;
+    left: -15px;
+  }
+
+  .sub-banner-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub-banner__modal {
+    position: relative;
+    top: 0px;
+    left: 0;
   }
 }
