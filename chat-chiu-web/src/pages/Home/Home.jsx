@@ -1,4 +1,5 @@
 import HeroBanner from "../../components/hero-banner/HeroBanner";
+import InternationalCertificates from "../../components/international-certificates/InternationalCertificates";
 import ScrollingText from "../../components/scrolling-text/ScrollingText";
 import SubBanner from "../../components/sub-banner/SubBanner";
 import "./Home.css";
@@ -8,6 +9,7 @@ const Home = () => {
     <HeroBanner />
     <ScrollingText />
     <SubBanner />
+    <InternationalCertificates />
   </div>;
 };
 

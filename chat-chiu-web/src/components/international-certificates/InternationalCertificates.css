@@ -1,0 +1,121 @@
+.international-certificates-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.international-certificates-container > img {
+  width: 50vw;
+  height: 100%;
+}
+
+.certificates-desc__upper,
+.certificates-desc__bottom {
+  padding: 2.5rem 2rem 2rem 2rem;
+}
+
+.certificates-desc__upper > h3,
+.certificates-desc__bottom > h3 {
+  font-family: "HF Gesco", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-shadow: 2px 2px 2px rgb(255 255 255 / 0.48);
+  color: #673e2f;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.certificates-desc__upper > p {
+  text-align: center;
+  font-family: "BT Beau Sans", sans-serif;
+  font-size: 16px;
+  color: #76736f;
+}
+
+.certificates-upper__images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+  margin-top: 2rem;
+}
+
+.upper-images__desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.upper-images__desc p {
+  font-family: "BT Beau Sans", sans-serif;
+  font-size: 16px;
+  color: #673e2f;
+  text-align: center;
+}
+
+.certificates-desc__bottom {
+  background-color: #fff7eb;
+}
+
+.desc-bottom__vegan {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.desc-bottom__vegan > img {
+  width: 200px;
+  height: auto;
+}
+
+.vegan-cert__desc > h4 {
+  font-family: "HF Gesco", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4em;
+  text-shadow: 2px 2px 2px rgb(255 255 255 / 0.48);
+  color: #673e2f;
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.vegan-cert__desc > p {
+  text-align: center;
+  font-family: "BT Beau Sans", sans-serif;
+  font-size: 16px;
+  color: #333333;
+  width: 216px;
+}
+
+@media (max-width: 768px) {
+  .international-certificates-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .international-certificates-container > img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .certificates-upper__images {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .desc-bottom__vegan {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .certificates-desc__bottom {
+    margin-top: 5.5rem;
+  }
+}
