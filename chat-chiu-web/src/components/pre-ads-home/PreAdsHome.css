@@ -1,0 +1,43 @@
+.pre-ads-home-container {
+  background: url("https://images.unsplash.com/photo-1533460004989-cef01064af7e?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center / cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 3rem 2rem 3rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+.pre-ads-home-container > h1 {
+  font-size: 98px;
+  line-height: 120px;
+  color: #fff;
+  text-align: center;
+  font-family: "HF Gesco", sans-serif;
+}
+
+.pre-ads-home-btn {
+  display: flex;
+  gap: 1.5rem;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 30px 10px 30px;
+  font-size: 26px;
+  background-color: #fff9eb;
+  font-family: "Vollkorn", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 1.4em;
+  color: #673e2f;
+  fill: #673e2f;
+  border-style: none;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.pre-ads-home-btn:hover {
+  background-color: #673e2f;
+  color: #fff9eb;
+  cursor: pointer;
+}
